@@ -7,22 +7,89 @@
     <title>Charles Rempel's Portfolio</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		<!-- csstransforms3d-shiv-cssclasses-prefixed-teststyles-testprop-testallprops-prefixes-domprefixes-load -->
     <script src="js/vendor/jquery-2.1.1.min.js"></script>
+    <script src="js/modernizr.custom.25376.js"></script>
   </head>
   <body>
-<div class="row">
-  <div class="small-12 columns">
-    <img src="img/portfolioimg.svg" alt="Mountain of Comps" class="character" />
+    <!--Perspective-->
+      <div id="perspective" class="perspective effect-rotateleft">
+        <div class="container"><!--Container Start-->
+        				<div class="wrapper"><!-- wrapper needed for scroll -->
+                  <div class="main clearfix">
+                    <div class="row full">
+                      <div class="small-12 columns">
+                        <img id="showMenu" class="hamburger" src="img/menu.png" />
+                      </div>
+                    </div>
 
-  </div>
-</div>
 
-<div id="muscleman-compressor">
 
-</div>
+    <!--SVG MuscleMan Animation-->
+    <div class="row drop">
+      <div class="wrap col-9">
+		<div class="menu col-9">
+			<header><h1 class="font spell">The Portfolio</h1></header>
+			<nav>
+				<ul class="navigate">
+					<li class="active" data-type ="all"><a href="#">All</a></li>
+					<li data-type="macro"><a href="#">Websites</a></li>
+					<li data-type="fashion"><a href="#">Graphic Design</a></li>
+					<li data-type="architecture"><a href="#">Foundation</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div class="portfolio col-9">
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/G6ALhet5ba/s3/1466d131e60/macro1.jpg" alt="" title="macro">
+			</figure>
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/mUnD0aHeba/s3/1466d132248/macro2.jpg" alt="" title="macro">
+			</figure>
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/o2c0gYgzce/s3/1466d1312a8/fashion1.jpg" alt="" title="fashion">
+			</figure>
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/wqbpTH9sba/s3/1466d131690/fashion2.jpg" alt="" title="fashion">
+			</figure>
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/uLD3ZKxece/s3/1466d1306f0/architecture1.jpg" alt="" title="architecture">
+			</figure>
+			<figure class="img-wrap col-3">
+				<img src="http://dc615.4shared.com/img/-YRgvy78ce/s3/1466d130ec0/architecture2.jpg" alt="" title="architecture">
+			</figure>
+				<figure class="img-wrap col-3">
+					<img src="http://dc615.4shared.com/img/-YRgvy78ce/s3/1466d130ec0/architecture2.jpg" alt="" title="architecture">
+				</figure>
+		</div>
+	</div>
+
+      <div class="small-6 columns float-right">
+        <div id="muscleman-compressor">
+        </div>
+      </div>
+    </div>
+
+      </div><!--Main End-->
+    </div><!--Wrapper End-->
+  </div><!--Container End-->
+  <nav class="outer-nav right vertical">
+				<a href="#" class="icon-home">Home</a>
+				<a href="#" class="icon-news">About</a>
+				<a href="#" class="icon-image">Work</a>
+				<a href="#" class="icon-mail">Contact</a>
+			</nav>
+</div> <!--End Perspective-->
+
+
+
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/menu.js"></script>
     <script src="js/app.js"></script>
     <script src="js/jquery.lazylinepainter-1.7.0.min.js"></script>
   </body>
