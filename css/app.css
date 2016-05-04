@@ -11,14 +11,13 @@ body {
 
 h1{
   font-family: 'Fredericka the Great', cursive;
+  color: white;
 }
 
-.character {
-    width: 500px;
-    height: 500px;
-    float: right;
-    margin-top: 60px;
+p{
+  color: white;
 }
+
 
 .row.full{
   max-width: 100%;
@@ -32,11 +31,17 @@ h1{
   width: 50px;
   height: 50px;
   position: fixed;
+  cursor: pointer;
 }
 
 .drop{
   margin-top: 5em;
 }
+
+.svgsize{
+  width: 250px;
+}
+
 
 /*Home Page Style*/
 .hero{
@@ -90,6 +95,23 @@ h1{
   color:#fff;
 }
 
+
+/*Bio Styles*/
+
+.bio{
+  font-size: 3em;
+}
+
+.ottsel {
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin-top: 60px;
+}
+
+p{
+  margin-left: 1.6em;
+}
 
 /*portfolio style from Codepen User
 Forked from [Turalska Luca](http://codepen.io/Luca/)'s Pen
