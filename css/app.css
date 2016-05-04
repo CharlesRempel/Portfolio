@@ -8,6 +8,11 @@ html, body, div, figure, img, header, ul, li, a {
 body {
     background-color: rgb(18, 18, 18);
 }
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+}
+
 .character {
     width: 500px;
     height: 500px;
@@ -32,6 +37,59 @@ body {
 .drop{
   margin-top: 5em;
 }
+
+/*Home Page Style*/
+.hero{
+  background:url("../img/icerainbow.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size: cover;
+  height: auto;
+}
+
+.glass{
+  background-color: rgba(0, 0, 0, 0.8);
+  color: rgba(251, 251, 251, 0.9);
+  margin-top: 25em;
+  padding: 6em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  /* bring your own prefixes */
+  transform: translate(-50%, -50%);
+}
+
+.glass > div > div > h1{
+  text-align: center;
+  font-size: 3em;
+}
+
+.push{
+  margin-top: 2em;
+}
+
+.button{
+  width: 100px;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+.button.hollow{
+  border-color: #fff;
+  color:#fff;
+}
+.button.hollow:hover {
+  border-color: #8e7cc3;
+  color: #8e7cc3;
+}
+.button.hollow.ibiza{
+  border-color: #8e7cc3;
+  color: #8e7cc3;
+}
+.button.hollow.ibiza:hover{
+  border-color: #fff;
+  color:#fff;
+}
+
 
 /*portfolio style from Codepen User
 Forked from [Turalska Luca](http://codepen.io/Luca/)'s Pen
@@ -95,8 +153,8 @@ figure {
 h1.spell {
     color: #fcfcfc;
     font-size: 44px;
-    font-family: 'Open Sans Condensed', sans-serif;
     margin-top: .65em;
+    font-family: 'Fredericka the Great', cursive;
 }
 nav {
     margin-top: 45px;
